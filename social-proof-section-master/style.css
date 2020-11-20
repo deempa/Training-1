@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    overflow: visible;
+}
+
+.container {
+    padding: 10% 0%;
+    
+}
+
+.big-heading {
+    color: hsl(300, 43%, 22%);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.heading-desc {
+    color: hsl(303, 10%, 53%);
+    line-height: 1.7;
+}
+
+.stars-1 {
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px 10px;
+    padding-left: 40px;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.stars-1 span {
+    padding: 20px;
+    
+}
+
+.stars-2 {
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px 10px;
+    padding-left: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 40px;
+    width: 600px;
+}
+
+.stars-2 span {
+    padding: 20px;
+}
+
+.stars-3 {
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px 10px;
+    padding-left: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 80px;
+    width: 600px;
+}
+
+.stars-3 span {
+    padding: 20px;
+}
+
+
+.top-card {
+    padding: 5%;
+}
+
+.bottom-card {
+    padding: 5%;
+    margin: 0;
+}
+
+.col-lg-9 p {
+    margin: 0;
+}
+
+
+.card{
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+
+@media (max-width:1300px) {
+    .stars-1 {
+        text-align: center;
+        width: 500px;
+    }
+
+    .stars-2 {
+        position: static;
+        text-align: center;
+        width: 500px;
+    }
+
+    .stars-3 {
+        position: static;
+        text-align: center;
+        width: 500px;
+    }
+}
+
+@media (max-width:1000px) {
+    .stars-1 {
+        width: 100%;
+    }
+
+    .stars-2 {
+        width: 100%;
+        overflow: visible;
+    }
+
+    .stars-3 {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:500px) {
+    .stars-1 {
+        margin-left: auto;
+        width: 500px;
+    }
+
+    .stars-2 {
+        width: 500px;
+        margin-left: auto;
+    }
+
+    .stars-3 {
+        width: 500px;
+        margin-left: auto;
+    }
+}
